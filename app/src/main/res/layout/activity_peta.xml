@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birul"
+    tools:context=".PetaActivity"
+    android:orientation="vertical">
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:layout_marginTop="20dp">-->
+
+<!--        <com.google.android.material.appbar.MaterialToolbar-->
+<!--            android:id="@+id/topAppBar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            app:title="Peta"-->
+<!--            app:navigationIcon="@drawable/ic_baseline_keyboard_arrow_left_24"-->
+<!--            android:background="@color/white"-->
+<!--            />-->
+
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbProfile"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:titleTextColor="@color/black"/>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        tools:ignore="MissingConstraints" />
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="2"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginLeft="30dp"-->
+    <!--        android:layout_marginRight="30dp"-->
+    <!--        app:boxBackgroundColor="@color/black"-->
+    <!--        app:boxBackgroundMode="filled"-->
+    <!--        app:startIconDrawable="@drawable/ic_baseline_find_in_page_24"-->
+    <!--        tools:ignore="MissingConstraints">-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/edt_nomorLogin"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:background="@drawable/bbtton"-->
+    <!--            android:paddingLeft="10dp"-->
+    <!--            android:hint="Cari Sekolaj"-->
+    <!--            android:inputType="number"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:textSize="13dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            />-->
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+</LinearLayout>
